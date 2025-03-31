@@ -1,13 +1,93 @@
-.presentacion{
 
+
+.presentacion{
+    background: #E8C07D;
+    padding: 40px;
+    margin: 20px;
 }
+
 .titulo_principal{
     color: #5C3D2E;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center; /*centra el titulo*/
+    text-align: center;              /*centra el titulo*/
+    background-color:#A63D2E ;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 2.5rem;              /*define el tamaño del texto, 2.5 veces el tamaño base */
+}
 
+.titulos_secundarios{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 p{
     text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #5C3D2E;
+    background-color:#F5E3C3 ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    background-color: #A63D2E;
+    color: white;
+    padding: 20px 0;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #228B22;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #3B82F6;
+}
+section {
+    background-color: #E8C07D;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.menu {
+    list-style-type: none;  /* Quita las viñetas */
+    padding: 10;             
+    margin: 0;              /* Elimina el margen */
+    display: flex;          /* Cambia la lista a un contenedor flex */
+}
+
+ul li {
+    margin-right: 20px;     /* Espacio entre los elementos de la lista */
+}
+.Historia-Patrimonio{
+    max-width: 500px;
+}
+
+aside {
+    width: 25%;                /*  ocupa el 25% del ancho */
+    padding: 20px;              /* Relleno interno */
+    margin-left: 20px;          /* Espacio entre el aside y el contenido */
+    border-radius: 10px;        /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+#Historia-Patrimonio{
+    display: flex;
+    margin: 20px;               /* Márgenes alrededor del contenedor */
+   
 }
