@@ -1,0 +1,13 @@
+.presentacion{
+
+}
+.titulo_principal{
+    color: #5C3D2E;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /*centra el titulo*/
+
+}
+
+p{
+    text-align: justify;
+}
