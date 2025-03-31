@@ -7,7 +7,7 @@
 }
 
 .titulo_principal{
-    color: #5C3D2E;
+    color: #f5ae8a;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;              /*centra el titulo*/
     background-color:#A63D2E ;
@@ -47,11 +47,7 @@ h2{
     font-size: 2rem;
     color: #228B22;
 }
-h3{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    color: #3B82F6;
-}
+
 section {
     background-color: #E8C07D;
     padding: 30px;
@@ -67,17 +63,28 @@ img {
 }
 .menu {
     list-style-type: none;  /* Quita las viñetas */
-    padding: 10;             
-    margin: 0;              /* Elimina el margen */
-    display: flex;          /* Cambia la lista a un contenedor flex */
+    padding: 15px 0;             /*espaciado arriba y abajo*/
 }
 
-ul li {
-    margin-right: 20px;     /* Espacio entre los elementos de la lista */
+.menu ul {
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra los enlaces */
+    list-style: none; /* Quita los estilos de lista */
+    padding: 10;
+    margin: 0;
 }
-.Historia-Patrimonio{
-    max-width: 500px;
+.menu li{
+    margin: 0 20px;         /* Espacio entre los enlaces */
 }
+.menu a{
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Color del texto */
+    font-size: 18px;
+}
+
+
+
+
 
 aside {
     width: 25%;                /*  ocupa el 25% del ancho */
@@ -91,3 +98,37 @@ aside {
     margin: 20px;               /* Márgenes alrededor del contenedor */
    
 }
+
+/*formulario de contacto*/
+.contacto{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+label{
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+input, textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#enviar{
+    background-color: #228B22;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.texto-formulario{
+    text-align: center;
+}
+
+
