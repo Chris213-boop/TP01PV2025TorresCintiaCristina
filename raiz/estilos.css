@@ -130,4 +130,36 @@ input, textarea{
 .texto-formulario{
     text-align: center;
 }
+/*museos y arte*/
+.museos{
+    list-style-type: none;  /* Quita las viñetas */
+    padding: 30px;             /*espaciado arriba y abajo*/
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra los enlaces */
+    list-style: none; /* Quita los estilos de lista */
+    padding: 10px;
+    margin:20px;
+    color: #A63D2E; /* Color del texto */
+    font-size: 18px;
+}
+.imagenes {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Mantiene proporciones y recorta si es necesario */
+    margin: 40px;
+}
 
+.titulo-museos{
+    text-align: center;              /*centra el titulo*/
+    font-size: 1.5rem;              /*define el tamaño del texto, 2.5 veces el tamaño base */
+}
+.volver-atras{
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #228B22;
+}
+.volver-atras a{
+    text-decoration: none; /* Quita el subrayado */
+    color: #A63D2E; /* Color del texto */
+    font-size: 20px;
+}
