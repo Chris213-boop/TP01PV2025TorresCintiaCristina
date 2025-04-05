@@ -148,27 +148,29 @@ input, textarea{
     font-size: 18px;
 }
 /*----------------------------------------------------------------------------------------------------*/
-/*museos y arte*/
+/*museos*/
 .museos{
     display: flex;               /* Alinea los elementos en fila */
     flex-wrap: wrap;             /* Permite que bajen a otra línea si no entran */
     justify-content: center;     /* Centra los enlaces */
-    gap: 20px;                   /* Espacio uniforme entre los elementos */
+    gap: 30px;                   /* Espacio uniforme entre los elementos */
     list-style: none;            /* Quita los estilos de lista */
-    padding: 20px;
-    margin:20px;
+    padding: 0;
+    margin:40px 0;
     color: #A63D2E;            /* Color del texto */
-    font-size: 18px;
 }
+.museos li {
+    background-color: #f9f9f9;  /* Color de fondo para que cada museo se vea en su "tarjetita" */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;               /* Ancho fijo para que todos queden igual de grandes */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Sombra suave */
+    text-align: center;         /* Centra el contenido dentro de cada tarjetita */
+}
+
 .imagen-museo{
-    width: 400px;                    /* ancho fijo */
-    height: 400px;
-    object-fit: cover;              /* Mantiene proporciones y recorta si es necesario */
+    width: 100%;                    /* ancho fijo */
+    height: auto;
     border-radius: 10px;             /*borde redondeado*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*sombreado a la imagen*/
-}
-.volver-atras{
-    margin: 20px;
-    padding: 20px;
-    border: 5px solid #228B22;    /*Aplica un borde completo alrededor del elemento,grosor, tipo de linea:continua, color*/
 }
