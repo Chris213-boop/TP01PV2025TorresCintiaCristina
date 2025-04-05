@@ -1,0 +1,158 @@
+
+/*Estilo principal*/
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    color: #5C3D2E;
+    background-color:#F5E3C3 ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header{
+    background-color: #A63D2E;
+    color: white;
+    padding: 20px 0;
+}
+.presentacion , .section{
+    background: #E8C07D;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.menu {
+    list-style-type: none;       /* Quita las viñetas */
+    padding: 15px 0;             /*espaciado arriba y abajo*/
+}
+
+.menu ul {
+    display: flex;             /* Alinea los elementos en fila */
+    justify-content: center;   /* Centra los enlaces */
+    list-style: none;          /* Quita los estilos de lista */
+    padding: 10;
+    margin: 0;
+}
+.menu li{
+    margin: 0 20px;           /* Espacio entre los enlaces */
+}
+.menu a{
+    text-decoration: none;   /* Quita el subrayado */
+    color: white;          /* Color del texto */
+    font-size: 18px;
+}
+.titulo_principal{
+    color: #f5ae8a;                             /* Define el color del texto*/
+    font-family: 'Times New Roman', Times, serif; /*Especifica la fuente del texto*/
+    text-align: center;              /*centra el titulo*/
+    background-color:#A63D2E ;     /*Establece el color de fondo*/
+    padding: 20px;                   /*Agrega un espacio de 20 píxeles entre el contenido y el borde del elemento.*/
+    border-radius: 10px;            /*Redondea las esquinas del elemento con un radio de 10 píxeles*/
+    display: inline-block;           /*Permite que el elemento se comporte como un bloque, pero sin ocupar toda la línea.*/
+    margin: 10px 0;                 /*Agrega un margen de 10 píxeles arriba y abajo, sin márgenes laterales*/
+    font-size: 2.5rem;              /*define el tamaño del texto, 2.5 veces el tamaño base */
+}
+.titulos_secundarios{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;             /*Establece el tamaño del texto en 1.5 rem*/  
+    margin-bottom: 20px;           /*Agrega un espacio de 20 píxeles debajo del elemento*/
+    color: #228B22;
+}
+.parrafos{
+    text-align: justify;           /*Justifica el texto*/
+    font-size: 1.2rem;             /*Establece el tamaño del texto en 1.2 rem*/
+    line-height: 1.6;             /*Define la altura de línea (espacio entre renglones)*/
+}
+#Historia-Patrimonio{
+    display: flex;
+    margin: 20px;               /* Márgenes alrededor del contenedor */
+}
+
+.imagenes{
+    max-width: 100%;             /*Hace que el ancho del elemento (por ejemplo, una imagen) nunca sobrepase el 100% del contenedor */
+    height: auto;                /*Mantiene la proporción original de la imagen al ajustar el ancho*/
+    border-radius: 10px;         /*Redondea las esquinas del elemento con un radio de 10px.*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);   /*Aplica una sombra al elemento*/
+}
+.bio-guemes{
+    width: 80%;                /*  ocupa el 25% del ancho */
+    padding: 20px;              /* Relleno interno */
+    margin-left: 20px;          /* Espacio entre el aside y el contenido */
+    border-radius: 10px;        /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*formulario de contacto*/
+.contacto{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+label{
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+input, textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#enviar{
+    background-color: #228B22;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;     /*Agrega 15 píxeles de espacio por encima del elemento*/
+    border: none;         /*Elimina cualquier borde que tenga el elemento*/
+    border-radius: 5px;
+    font-size: 18px;
+}
+.texto-formulario{
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*museos y arte*/
+.museos{
+    list-style-type: none;       /* Quita las viñetas */
+    padding: 30px;               /*espaciado arriba y abajo*/
+    display: flex;               /* Alinea los elementos en fila */
+    justify-content: center;     /* Centra los enlaces */
+    list-style: none;            /* Quita los estilos de lista */
+    padding: 10px;
+    margin:20px;
+    color: #A63D2E;            /* Color del texto */
+    font-size: 18px;
+}
+.imagen-museo{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;              /* Mantiene proporciones y recorta si es necesario */
+    margin: 40px;
+    border-radius: 10px;             /*borde redondeado*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*sombreado a la imagen*/
+}
+
+
+
+
+
+
+
+
+.titulo-museos{
+    text-align: center;              /*centra el titulo*/
+    font-size: 1.5rem;              /*define el tamaño del texto, 2.5 veces el tamaño base */
+}
+.volver-atras{
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #228B22;    /*Aplica un borde completo alrededor del elemento,grosor, tipo de linea:continua, color*/
+}
+.volver-atras a{
+    text-decoration: none;          /* Quita el subrayado */
+    color: #A63D2E;               /* Color del texto */
+    font-size: 20px;
+}
