@@ -8,12 +8,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="presentacion">
-            <h2 class="titulos_secundarios">CONTACTANOS!!!</h2>
-        <p class="texto-formulario">
-            Si deseas ponerte en contacto con nosotros, rellena el formulario y te responderemos lo antes posible.
-        </p>
-        </div>
+        <header class="header">
+            <div class="presentacion">
+                <h2 class="titulo_principal">CONTACTANOS!!!</h2>
+            <p class="titulos-secundarios">
+                Si deseas ponerte en contacto con nosotros, rellena el formulario y te responderemos lo antes posible.
+            </p>
+            </div>
+            <nav class="menu">
+                <ul >
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="museos.html">Museos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
         <form class="section">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" required>
@@ -44,14 +54,35 @@
             <br>
     
             <input type="submit" id="enviar" value="Enviar Mensaje" onclick="enviarFormulario()">
-            
-            <br>
 
-            <div class="volver-atras">
-                <a href="index.html">VOLVER ATRAS</a>
-            </div> 
         </form>
     </div>
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@saltalalinda.com</p>
+                <p>Teléfono: +54 387 123-4567</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <p>
+                    <a href="#" target="_blank">Facebook</a> 
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Fuentes</h3>
+                <p>Información basada en organismos oficiales de turismo y cultura de Salta.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Salta La Linda. Todos los derechos reservados.
+        </div>
+    </footer>
 <script>
     //Funcion que se ejecuta cuando se hace clic en el boton
     function enviarFormulario(){
@@ -81,7 +112,5 @@
         alert("nombre: "+nombre+" y apellido: "+apellido);
     }
 </script>
-    
-
 </body>
 </html>

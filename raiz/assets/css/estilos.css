@@ -5,7 +5,7 @@
     color: #5C3D2E;
     background-color:#F5E3C3 ;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     text-align: center;
 }
 .header{
@@ -29,8 +29,10 @@
     display: flex;             /* Alinea los elementos en fila */
     justify-content: center;   /* Centra los enlaces */
     list-style: none;          /* Quita los estilos de lista */
-    padding: 10;
+    flex-wrap: wrap;             /* Permite que bajen a otra línea si no entran */
+    padding: 20px;
     margin: 0;
+    gap: 30px;
 }
 .menu li{
     margin: 0 20px;           /* Espacio entre los enlaces */
@@ -38,7 +40,7 @@
 .menu a{
     text-decoration: none;   /* Quita el subrayado */
     color: white;          /* Color del texto */
-    font-size: 18px;
+    font-size: 25px;
 }
 .titulo_principal{
     color: #f5ae8a;                             /* Define el color del texto*/
@@ -53,7 +55,7 @@
 }
 .titulos_secundarios{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;             /*Establece el tamaño del texto en 1.5 rem*/  
+    font-size: 2rem;             /*Establece el tamaño del texto en 1.5 rem*/  
     margin-bottom: 20px;           /*Agrega un espacio de 20 píxeles debajo del elemento*/
     color: #228B22;
 }
@@ -80,14 +82,50 @@
     border-radius: 10px;        /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
+
+.footer {
+    background-color: #A63D2E; /* Color principal del footer */
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 50px;            /*spacio de 50px hacia arriba, separándolo del contenido anterior*/
+    font-size: 16px;
+}
+.footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 20px;           /*20px de espacio hacia abajo antes de la parte final del footer*/
+}
+.footer-section {
+    flex: 1 1 250px;              /*espacio minimo 250px*/
+    min-width: 200px;             /*no puede ser mas chico que 200px*/
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;              /*linea blanca*/
+    padding-bottom: 5px;                         /*espacio entre la linea y el texto*/
+}
+.footer-section p, 
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
 /*----------------------------------------------------------------------------------------------------*/
 /*formulario de contacto*/
-.contacto{
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
 label{
     margin-top: 10px;
     text-align: left;
@@ -109,50 +147,28 @@ input, textarea{
     border-radius: 5px;
     font-size: 18px;
 }
-.texto-formulario{
-    text-align: center;
-}
-
 /*----------------------------------------------------------------------------------------------------*/
 /*museos y arte*/
 .museos{
-    list-style-type: none;       /* Quita las viñetas */
-    padding: 30px;               /*espaciado arriba y abajo*/
     display: flex;               /* Alinea los elementos en fila */
+    flex-wrap: wrap;             /* Permite que bajen a otra línea si no entran */
     justify-content: center;     /* Centra los enlaces */
+    gap: 20px;                   /* Espacio uniforme entre los elementos */
     list-style: none;            /* Quita los estilos de lista */
-    padding: 10px;
+    padding: 20px;
     margin:20px;
     color: #A63D2E;            /* Color del texto */
     font-size: 18px;
 }
 .imagen-museo{
-    width: 300px;
-    height: 300px;
+    width: 400px;                    /* ancho fijo */
+    height: 400px;
     object-fit: cover;              /* Mantiene proporciones y recorta si es necesario */
-    margin: 40px;
     border-radius: 10px;             /*borde redondeado*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*sombreado a la imagen*/
-}
-
-
-
-
-
-
-
-
-.titulo-museos{
-    text-align: center;              /*centra el titulo*/
-    font-size: 1.5rem;              /*define el tamaño del texto, 2.5 veces el tamaño base */
 }
 .volver-atras{
     margin: 20px;
     padding: 20px;
     border: 5px solid #228B22;    /*Aplica un borde completo alrededor del elemento,grosor, tipo de linea:continua, color*/
-}
-.volver-atras a{
-    text-decoration: none;          /* Quita el subrayado */
-    color: #A63D2E;               /* Color del texto */
-    font-size: 20px;
 }
